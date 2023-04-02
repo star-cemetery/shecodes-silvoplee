@@ -1,0 +1,23 @@
+:root {
+  --primary-color: rgb(138, 158, 25);
+  --highlight-color1: rgb(65, 90, 33);
+  --highlight-color2: rgb(255, 115, 0);
+  --highlight-color3: rgb(247, 244, 244);
+  --support-color: rgb(217, 255, 129);
+}
+body {
+  font-family: "Boogaloo", cursive;
+  background-color: var(--primary-color);
+}
+.navbar {
+  background-color: var(--highlight-color1);
+}
+#personal-logo {
+  max-width: 30px;
+}
+#silvoplee-logo {
+  max-width: 300px;
+}
+.further-search-logos {
+  max-width: 150px;
+}
