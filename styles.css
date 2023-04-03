@@ -26,6 +26,18 @@ body {
   display: block;
   margin: 0 auto;
 }
+.silv-atmosphere {
+  width: 585px;
+  height: 468px;
+}
+.silv-food {
+  width: 568px;
+  height: 470px;
+}
+.silv-sweets {
+  width: 562px;
+  height: 560px;
+}
 footer {
   font-family: "Fasthand", cursive;
   color: var(--highlight-color3);
