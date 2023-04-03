@@ -4,20 +4,33 @@
   --highlight-color2: rgb(255, 115, 0);
   --highlight-color3: rgb(247, 244, 244);
   --support-color: rgb(217, 255, 129);
+  --font-family: "Fasthand", cursive;
+  --font-family: "Squada One", cursive;
 }
 body {
-  font-family: "Boogaloo", cursive;
   background-color: var(--primary-color);
+  font-size: 20px;
+  color: var(--support-color);
+  font-family: "Squada One", cursive;
 }
 .navbar {
   background-color: var(--highlight-color1);
+  font-family: "Fasthand", cursive;
+  font-size: 22px;
 }
 #personal-logo {
   max-width: 30px;
 }
 #silvoplee-logo {
-  max-width: 300px;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  font-family: "Fasthand", cursive;
+  color: var(--highlight-color3);
 }
 .further-search-logos {
-  max-width: 150px;
+  max-width: 100px;
+  margin: 2px;
 }
