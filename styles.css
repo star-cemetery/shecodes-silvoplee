@@ -4,11 +4,11 @@
   --highlight-color2: rgb(255, 115, 0);
   --highlight-color3: rgb(247, 244, 244);
   --support-color: rgb(217, 255, 129);
-  --font-family: "Fasthand", cursive;
-  --font-family: "Squada One", cursive;
+  --basic-font-family: "Fasthand", cursive;
+  --support-font-family: "Squada One", cursive;
 }
 body {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   font-size: 20px;
   color: var(--support-color);
   font-family: "Squada One", cursive;
@@ -45,4 +45,14 @@ footer {
 .further-search-logos {
   max-width: 100px;
   margin: 2px;
+  overflow: hidden;
+}
+video {
+  height: 100%;
+  width: 100%;
+}
+#styled {
+  font-family: "Fasthand", cursive;
+  color: var(--highlight-color3);
+  font-size: 22px;
 }
