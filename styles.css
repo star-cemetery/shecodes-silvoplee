@@ -17,6 +17,7 @@ body {
   background-color: var(--highlight-color1);
   font-family: "Fasthand", cursive;
   font-size: 22px;
+  max-width: 100%;
 }
 #personal-logo {
   max-width: 30px;
