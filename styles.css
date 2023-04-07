@@ -17,7 +17,15 @@ body {
   background-color: var(--highlight-color1);
   font-family: "Fasthand", cursive;
   font-size: 22px;
-  max-width: 100%;
+  }
+  @media (max-width: 475px){
+    .navbar {
+        width: 100%;
+    }
+}
+.container-fluid>.collapse, .container-fluid>.navbar-brand, .container>.collapse, .container>.navbar-brand {
+    margin-right: 0;
+    margin-left: 0;
 }
 #personal-logo {
   max-width: 30px;
